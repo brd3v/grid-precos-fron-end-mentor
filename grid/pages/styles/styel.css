@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+.grid{
+    height: 59%;    
+    width: 50%;
+    
+    box-shadow:inset 0 0 1em teal, 0 0 1em teal;
+
+    border-radius: 10px;
+    overflow: hidden;
+    position: static;
+    
+}
+.text{
+    height: 40%;
+    margin: 15px 15px;
+}
+.text h2{
+
+    color: hsl(179, 62%, 43%);
+    margin: 10px 0;
+}
+.text h5 {
+   color: hsl(71, 73%, 54%);
+   font-size: 16px;
+}
+
+.text p {
+    margin: 10px 0;
+    color:  hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+.price{
+
+    display: flex; 
+    height: 60%;
+
+}
+.preco{
+    display: flex;
+    align-items: center;
+    
+    margin-left:15px;
+}
+.one{
+    width: 50%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+     box-shadow:inset 0 0 1em teal, 0 0 1em teal;
+   
+}
+
+.one h5 {
+    margin: 15px 15px;
+
+}
+.one h6{
+    margin: 0px 5px 5px 15px;
+    font-size: 40px;
+}
+.one p {
+    font-size: 16px;
+    margin: 0 15px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    width: 88%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 15px;
+    color:  hsl(204, 43%, 93%);
+    border: none;
+     box-shadow:inset 0 0 1em teal, 0 0 1em teal;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  hsl(71, 73%, 74%);
+    color: black;
+}
+.preco p {
+    color:  hsl(218, 22%, 67%);
+}
+.two{
+    width: 50%;
+    background-color:  hsl(179, 62%, 60%);
+    color: hsl(204, 43%, 93%);
+     box-shadow:inset 0 0 1em teal, 0 0 1em teal;
+  
+}
+.two h5{
+    margin: 15px 15px;
+}
+
+.two p {
+    margin:  15px 15px;
+    font-size: 16px;
+}
